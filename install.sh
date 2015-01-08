@@ -30,7 +30,7 @@ echo "prefix = $HOME/.npm/" > ~/.npmrc
 cp -rf .vimrc ~/
 mkdir -p ~/.vim/autoload ~/.vim/bundle; \
 curl -L -Sso ~/.vim/autoload/pathogen.vim \
-    https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+    https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 cd ~/.vim/bundle
 git clone https://github.com/tpope/vim-rails.git
