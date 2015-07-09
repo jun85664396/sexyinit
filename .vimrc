@@ -31,7 +31,9 @@ set wildignore+=*/tmp/*
 " set vim yank unlimit
 set viminfo='100,h
 filetype plugin indent on
-
+"Tab
+map <Tab> gt
+map <S-Tab> gT
 " Remember last cursor position
 au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
