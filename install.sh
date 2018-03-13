@@ -48,5 +48,6 @@ git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/fatih/vim-go.git
 git clone git://github.com/slim-template/vim-slim.git
 git clone https://github.com/tomlion/vim-solidity.git
+git clone https://github.com/mxw/vim-jsx.git
 
 echo "execute command: \"source ~/.bash_profile\""
