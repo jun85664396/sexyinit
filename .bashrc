@@ -150,5 +150,11 @@ moveToOldAndWriteNewFile(){
 	vim $1
 }
 
+getIp(){
+  curl 'https://api.ipify.org?format=json'
+  echo ""
+}
+
 alias crun=gccCompileAndRun
 alias vnew=moveToOldAndWriteNewFile
+alias ip=getIp
