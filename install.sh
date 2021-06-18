@@ -37,6 +37,7 @@ git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/tpope/vim-bundler.git
 git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/mmalecki/vim-node.js.git
+git clone --recurse-submodules https://github.com/python-mode/python-mode.git
 git clone https://github.com/leafgarland/typescript-vim.git
 git clone https://github.com/kchmck/vim-coffee-script.git
 git clone https://github.com/groenewege/vim-less.git
