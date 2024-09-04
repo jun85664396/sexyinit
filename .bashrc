@@ -151,7 +151,7 @@ moveToOldAndWriteNewFile(){
 }
 
 getIp(){
-  curl 'https://api.ipify.org?format=json'
+  curl 'https://api64.ipify.org?format=json'
   echo ""
 }
 
