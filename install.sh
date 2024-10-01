@@ -52,4 +52,12 @@ git clone git://github.com/slim-template/vim-slim.git
 git clone https://github.com/tomlion/vim-solidity.git
 git clone https://github.com/mxw/vim-jsx.git
 
+if [ "$(uname)" == "Darwin" ]; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install fzf
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    sudo apt install fzf
+fi
+
+
 echo "execute command: \"source ~/.bash_profile\""
